@@ -1,5 +1,5 @@
 /* Caché sin conexión. Sube el número de versión si cambias index.html. */
-var CACHE = "pinta-v2";
+var CACHE = "pinta-v4";
 var FILES = ["./", "./index.html", "./icon-180.png"];
 
 self.addEventListener("install", function(e){

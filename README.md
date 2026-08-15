@@ -16,10 +16,34 @@ con dorso rojo e interrogación. Tres niveles: 3, 6 u 8 parejas. Las cartas
 giran con animación, las iguales se quedan abiertas y las distintas se cierran
 solas al cabo de un segundo.
 
-**Puzles** — 8 dibujos generados por código (gato, casa, arcoíris, barco,
-cohete, flor, mariposa, pez) en 2×2, 3×3 o 4×4. Las piezas se arrastran con
-el dedo, encajan solas al acercarlas y suena un tono. El tablero muestra la
-imagen en marca de agua como ayuda. Al terminar, confeti y fanfarria.
+**Puzles** — 8 gatitos generados por código: naranja de cerca, gris sentado,
+blanco dormido bajo la luna, negro con lazo, atigrado con un ovillo, uno
+asomando de una caja, uno mirando una mariposa en el jardín y otro sentado en
+la ventana de noche. Las piezas se arrastran con el dedo, encajan
+solas al acercarlas y suena un tono. El tablero muestra la imagen en marca de
+agua como ayuda.
+
+Progresa por niveles: cada puzle completado sube uno y arranca el siguiente
+con otro dibujo al azar, cada vez con más piezas.
+
+| Niveles | Rejilla | Piezas |
+|---------|---------|--------|
+| 1–2     | 2×2     | 4      |
+| 3–4     | 3×2     | 6      |
+| 5–6     | 3×3     | 9      |
+| 7–8     | 4×3     | 12     |
+| 9–10    | 4×4     | 16     |
+| 11–12   | 5×4     | 20     |
+
+A partir del 12 el contador sigue subiendo y se mantiene en 20 piezas. El
+nivel se guarda en el iPad, así que continúa donde lo dejó. La medalla de la
+barra inferior muestra el nivel y los puntos, el avance.
+
+Para volver al nivel 1: **mantener pulsada la medalla 1,5 segundos**. Es
+deliberadamente largo para que no lo haga ella sin querer.
+
+El botón de la miniatura abre el selector por si quiere cambiar de dibujo sin
+cambiar de nivel.
 
 ## Instalación recomendada
 
@@ -32,8 +56,8 @@ imagen en marca de agua como ayuda. Al terminar, confeti y fanfarria.
    conexión y sin ningún servidor encendido: el service worker ya guardó todo
    en el iPad.
 
-Si cambias `index.html`, sube el número de versión en `sw.js` (`pinta-v2` →
-`pinta-v3`) o el iPad seguirá sirviendo la copia antigua.
+Si cambias `index.html`, sube el número de versión en `sw.js` (`pinta-v4` →
+`pinta-v5`) o el iPad seguirá sirviendo la copia antigua.
 
 ## Antes de dársela
 
